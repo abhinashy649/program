@@ -3,9 +3,9 @@
 int main() {
     char alphabet;
 
-    printf("Alphabets from a to z are:\n");
+    printf("Alphabets from A to Z are:\n");
 
-    for (alphabet = 'a'; alphabet <= 'z'; ++alphabet) {
+    for (alphabet = 'A'; alphabet <= 'Z'; ++alphabet) {
         printf("%c ", alphabet);
     }
 
