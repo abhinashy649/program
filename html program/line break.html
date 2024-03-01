@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    /* style.css */
+
+.umbrella {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff; /* blue color */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stick {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 50px;
+    background-color: #000; /* black color */
+    transform: translateX(-50%);
+}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document of biyodata</bio-data></title>
+    <title>Umbrella</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p> My name is abhinash yadav.<br>I am form khadka.<br>I read in class nine.</p>
+    <div class="container">
+        <div class="rainy day">
+            <div class="umbrella">
+                <input id="panel" type="checkbox">
+                <label class="panel" for="panel"></label>
+                <div class="stick"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
